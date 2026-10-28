@@ -1,0 +1,36 @@
+MIT License
+
+Copyright (c) 2026 贡子淇
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+---
+
+Note on data licensing / 数据授权说明
+
+This license covers the source code and documentation in this repository only.
+It does NOT cover the underlying survey data, which is not distributed here.
+
+  * Nationscape (UCLA / Democracy Fund Voter Study Group) is subject to its own
+    terms of use and requires a request form.
+  * IPUMS USA (University of Minnesota) is registered-user licensed data and its
+    terms do not permit redistribution.
+
+To reproduce the results, obtain both datasets yourself following the steps in
+README.md ("数据来源").
