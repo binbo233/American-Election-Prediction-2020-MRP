@@ -105,7 +105,7 @@ y_i \sim \mathrm{Binomial}\big(n_i,\; p_i\big)
 $$
 
 $$
-\operatorname{logit}(p_i) =
+\mathrm{logit}(p_i) =
 \alpha
 + \alpha^{\text{state}}_{i}
 + \alpha^{\text{race}\times\text{gender}}_{i}
@@ -162,7 +162,7 @@ $$
 
 这张图是整个方法最直观的展示。灰圈为直接分解，蓝点为 MRP，蓝色细线为 95% 可信区间：
 
-- 修正幅度与样本量**反向相关**，相关系数 $\operatorname{corr}\big(|\hat y^{\text{disagg}}-\hat y^{\text{MRP}}|,\ 1/n\big) = 0.338$；
+- 修正幅度与样本量**反向相关**，相关系数 $\mathrm{corr}\big(|\hat y^{\text{disagg}}-\hat y^{\text{MRP}}|,\ 1/n\big) = 0.338$；
 - 修正最剧烈的是小样本州：**VT**（n=13）15.4% → **43.2%**，**ND**（n=4）75.0% → **52.5%**，**AK**（n=6）66.7% → **50.0%**；
 - 样本量大的州几乎不动：CA（n=565）38.4% → 40.4%，FL（n=420）48.6% → 50.9%；
 - 州间标准差从 11.35 收窄到 5.69，区间宽度随样本量单调变化——两者都说明模型在做它该做的事。
